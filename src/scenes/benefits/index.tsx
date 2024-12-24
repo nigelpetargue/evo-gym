@@ -13,21 +13,21 @@ import Benefit from "./Benefit";
 const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "State of the Art Facilities",
+    title: "State-of-the-Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Enjoy access to modern, high-quality equipment and well-maintained spaces designed to help you achieve your fitness goals in a comfortable and inspiring environment.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "Choose from a wide variety of classes ranging from yoga and strength training to high-energy dance sessions, catering to all skill levels and interests.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Learn from certified trainers and experienced professionals dedicated to guiding you with personalized plans and expert advice to maximize your progress.",
   },
 ];
 
@@ -100,7 +100,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           <div>
             {/* TITLE */}
             <div className="relative">
-              <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
+              <div className="before:absolute before:-left-20 before:-top-20 before:z-[1] before:content-abstractwaves">
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
@@ -131,18 +131,18 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                At Evo Gym, we believe in continuous improvement and pushing
+                boundaries. Our mission is to help you unlock your full
+                potential through a combination of expert training, cutting-edge
+                equipment, and a supportive community. Every workout is a step
+                towards becoming your best self, and we’re here to guide you
+                every step of the way.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Join a community that thrives on dedication, progress, and
+                results. Whether you're a beginner or an advanced athlete, Evo
+                Gym is the place to grow stronger, fitter, and more confident.
+                Let’s elevate your fitness journey together.
               </p>
             </motion.div>
 

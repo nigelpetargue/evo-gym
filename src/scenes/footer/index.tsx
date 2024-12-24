@@ -7,22 +7,23 @@ const Footer = () => {
         <div className="mt-16 basis-1/2 md:mt-0">
           <img alt="logo" src={Logo} />
           <p className="my-5">
-            Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-            orci ut habitant laoreet. Iaculis tristique.
+            At Evo Gym, we’re passionate about helping you achieve your fitness
+            goals. Our approach combines expert training, top-notch equipment,
+            and a supportive community to help you reach your full potential.
+            Fitness is a journey, and we're with you every step of the way.
           </p>
           <p>© Evogym All Rights Reserved.</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5">Massa orci senectus</p>
-          <p className="my-5">Et gravida id et etiam</p>
-          <p>Ullamcorper vivamus</p>
+          <p className="my-5">About Us</p>
+          <p className="my-5">Fitness Plan</p>
+          <p>Membership Options</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">Tempus metus mattis risus volutpat egestas.</p>
-          <p>(333)425-6825</p>
+          <p className="my-5">Have questions? We’re here to help!</p>
+          <p>Call us at (333) 425-6825 or email us at support@evogym.com.</p>
         </div>
       </div>
     </footer>

@@ -70,10 +70,13 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              At Evo Gym, our classes are designed to challenge and inspire you.
+              Whether you're looking to build strength, improve flexibility, or
+              boost your endurance, we offer a range of options to fit your
+              goals. Our expert trainers guide you through each session,
+              ensuring you get the most out of every workout. From
+              high-intensity training to yoga and recovery sessions, there's
+              something for everyone at Evo Gym.
             </p>
           </div>
         </motion.div>

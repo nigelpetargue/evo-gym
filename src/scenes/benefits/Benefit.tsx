@@ -18,22 +18,21 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
   return (
     <motion.div
       variants={childVariant}
-      className="mt-5 rounded-md border-2 border-gray-100 px-5 py-16 text-center"
+      className="mt-5 transform rounded-lg bg-white p-6 text-center shadow-lg transition-transform hover:scale-105"
     >
       <div className="mb-4 flex justify-center">
-        <div className="rounded-full border-2 border-gray-100 bg-primary-100 p-4">
+        <div className="rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 p-4">
           {icon}
         </div>
       </div>
-
-      <h4 className="font-bold">{title}</h4>
-      <p className="my-3">{description}</p>
+      <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
+      <p className="mt-2 text-gray-600">{description}</p>
       <AnchorLink
-        className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-        onClick={() => setSelectedPage(SelectedPage.ContactUs)}
-        href={`#${SelectedPage.ContactUs}`}
+        href="#"
+        onClick={() => setSelectedPage(SelectedPage.Benefits)}
+        className="hover:text-primary-700 mt-4 inline-block text-sm font-medium text-primary-500"
       >
-        <p>Learn More</p>
+        Learn More
       </AnchorLink>
     </motion.div>
   );

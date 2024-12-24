@@ -26,7 +26,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   };
 
   return (
-    <section id="contactus" className="mx-auto w-5/6 pt-24 pb-32">
+    <section id="contactus" className="mx-auto w-5/6 pb-32 pt-24">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
       >
@@ -46,9 +46,11 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+            Take the first step towards your fitness journey at Evo Gym. Whether
+            you're aiming for a leaner physique, more strength, or increased
+            endurance, our world-class trainers and facilities are here to
+            support you every step of the way. Join us today, and let’s work
+            together to achieve the body you’ve always dreamed of.
           </p>
         </motion.div>
 
